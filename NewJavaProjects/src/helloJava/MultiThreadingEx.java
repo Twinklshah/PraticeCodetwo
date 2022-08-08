@@ -21,6 +21,8 @@ public class MultiThreadingEx extends Thread  {  //Thread class overrides the ru
 		
 		MT.start(); //this will throw an exception cause thread has already reach to dead state
 	                //once it executed after that it will reach to dead state	
+		
+		//note: we can create multiple task from multiple thread.
 	}
 
 }
